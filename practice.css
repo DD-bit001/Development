@@ -1,0 +1,28 @@
+.button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: #140000;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.wish{
+    
+    border: none;
+    color: #140000;
+    padding: 5px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    border:2px solid #140000;
+    text-transform: uppercase;
+}

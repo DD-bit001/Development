@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Cricket Game</h1>
+    <p>Welcome to the Cricket Game! In this game, you will play as a cricket player and try to score as many runs as possible. You will face different types of deliveries from the bowler, and you need to decide how to play each delivery to maximize your score. Good luck!</p>
+    <button onclick="
+    console.log('You have choosen Bat')
+    let random=Math.random()*3
+    let computerchoices
+    if(random>0 &&random<=1){
+        computerchoices='Bat'
+    }
+    else if(random>1&&random<=2){
+         computerchoices='Ball'
+    }
+    else{
+         computerchoices='Stump'
+    }
+    if(computerchoices=='Ball'){
+        alert(' User won this Game')
+    }
+    else if(computerchoices=='Stump') {
+        alert ('Computer won')
+    }
+    else{
+        alert('no one is the winner')
+    }
+    
+    ">Bat</button>
+    <button onclick="
+    let random=Math.random()*3
+    let computerchoices
+    if(random>0 &&random<=1){
+        computerchoices='Bat'
+    }
+    else if(random>1&&random<=2){
+         computerchoices='Ball'
+    }
+    else{
+         computerchoices='Stump'
+    }
+    if(computerchoices=='Ball'){
+        alert(' no one won this Game')
+    }
+    else if(computerchoices=='Stump') {
+        alert ('User won')
+    }
+    else{
+        alert('Computer is the winner')
+    }
+    
+    
+    
+    
+    ">Ball</button>
+    <button onclick="
+   let  random=Math.random()*3
+    let computerchoices
+    if(random>0 &&random<=1){
+        computerchoices='Bat'
+    }
+    else if(random>1&&random<=2){
+         computerchoices='Ball'
+    }
+    else{
+         computerchoices='Stump'
+    }
+    if(computerchoices=='Ball'){
+        alert(' Computer won this Game')
+    }
+    else if(computerchoices=='Stump') {
+        alert ('No one won')
+    }
+    else{
+        alert('User is the winner')
+    }
+    
+    
+    
+    
+    ">Stump</button>
+</body>
+</html>
